@@ -1,5 +1,5 @@
 const config = {
-  result_page: false, // After get the value from KV, if use a page to show the result.
+  result_page: true, // After get the value from KV, if use a page to show the result.
   theme: "theme/journal", // Homepage theme, use the empty value for default theme. To use urlcool theme, please fill with "theme/urlcool" .
   cors: true, // Allow Cross-origin resource sharing for API requests.
   unique_link: false, // If it is true, the same long url will be shorten into the same short url
